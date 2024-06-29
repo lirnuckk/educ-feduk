@@ -1,9 +1,7 @@
 #include <iostream>
 
-
 int main() {
     std::srand(std::time(0));
-    const int max_value = 100;
     const int random_value = std::rand() % 100;
     int current_value = 0;
 
