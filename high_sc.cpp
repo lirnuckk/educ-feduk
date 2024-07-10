@@ -2,7 +2,7 @@
 #include <fstream>
 #include <string>
 
-int main() {
+int write_high_score() {
     const std::string high_sc_filename = "high_sc.txt";
 
     std::cout << "hi. ent u name pls" << std::endl;
